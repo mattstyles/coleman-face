@@ -8,6 +8,10 @@
   },
   "author": "Matt Styles <matt@veryfizzyjelly.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattstyles/coleman-face"
+  },
   "devDependencies": {
     "gulp-plumber": "^0.5.6",
     "gulp-notify": "^1.2.4",
