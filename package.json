@@ -1,6 +1,6 @@
 {
   "name": "coleman-face",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The public face of Coleman",
   "main": "index.js",
   "scripts": {
