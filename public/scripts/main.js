@@ -34,3 +34,5 @@ body.addEventListener( 'click', function( event ) {
 
 
 });
+
+console.log( 'face' );

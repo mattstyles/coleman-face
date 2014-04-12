@@ -123,8 +123,8 @@ gulp.task( 'styles', function() {
  */
 gulp.task( 'copy', function() {
     return gulp
-        .src( './public/index.html' )
-        .pipe( gulp.dest( './dist/public/' ) );
+        .src( './index.js' )
+        .pipe( gulp.dest( './dist/' ) );
 });
 
 

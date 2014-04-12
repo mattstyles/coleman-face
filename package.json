@@ -27,5 +27,8 @@
     "gulp-less": "^1.2.3",
     "gulp-rename": "^1.2.0",
     "gulp-if": "0.0.5"
+  },
+  "dependencies": {
+    "hogan.js": "^2.0.0"
   }
 }
