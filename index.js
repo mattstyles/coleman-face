@@ -29,13 +29,14 @@ module.exports = function( app ) {
     /**
      * Main module object
      */
-    var face = {
+    return {
         /**
          * Builds this module in to the correct place
          */
         init: function() {
 
-            console.log( 'Initialising coleman-face' );
+            // Register with coleman
+            coleman.register( this );
 
             // Report any clashes with existing files/folders here
 
@@ -69,12 +70,4 @@ module.exports = function( app ) {
             return id;
         }
     };
-
-
-    // Register with coleman
-    coleman.register( face );
-
-
-    // Return the API
-    return face;
 };
